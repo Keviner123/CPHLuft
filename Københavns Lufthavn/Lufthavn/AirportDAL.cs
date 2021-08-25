@@ -32,21 +32,32 @@ namespace Lufthavn
             using (AirportEntities AE = new AirportEntities())
             {
    
-                foreach (var item in AE.Routes)
+                foreach (var Route in AE.Routes)
                 {
 
-                    var person = (from p in AE.Routes
+                    var OriginAirport = (from p in AE.Routes
                                   join e in AE.Airports
-                                  on p.OriginAirportID equals e.AirportID µ
-                                  where p.AirlineID == item.AirlineID
+                                  on p.OriginAirportID equals e.AirportID
+                                  where p.AirlineID == Route.AirlineID
                                   select new
                                   {
-                                      ID = e.Name,
+                                      AirportName = e.Name,
+                                  }).ToList()[0];
 
 
-                                  }).ToList();
-                    Console.WriteLine(item.OriginAirportID + " - " + person[0].ID);
-                    //resultstring += item.OriginAirportID;
+                    var DestinationAirport = (from p in AE.Routes
+                                         join e in AE.Airports
+                                         on p.DestinationAirportID equals e.AirportID
+                                         where p.AirlineID == Route.AirlineID
+                                         select new
+                                         {
+                                             AirportName = e.Name,
+                                         }).ToList()[0];
+
+
+
+                    resultstring += Route.OriginAirportID + " - " + OriginAirport.AirportName + " - " + DestinationAirport.AirportName + " " +
+                                    Route.DepatureDate + "-" + Route.ArrivalDate + "\n";
                 }
             }
 

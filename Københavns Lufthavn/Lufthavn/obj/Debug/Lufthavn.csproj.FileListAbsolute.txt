@@ -10,3 +10,15 @@ C:\Users\Kevin\Desktop\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.csproj.C
 C:\Users\Kevin\Desktop\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.csproj.CopyComplete
 C:\Users\Kevin\Desktop\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.exe
 C:\Users\Kevin\Desktop\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.pdb
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\Lufthavn.exe.config
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\Lufthavn.exe
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\Lufthavn.pdb
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\EntityFramework.dll
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\EntityFramework.xml
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.csprojAssemblyReference.cache
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.csproj.CoreCompileInputs.cache
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.csproj.CopyComplete
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.exe
+C:\Git\CPHLuft\Københavns Lufthavn\Lufthavn\obj\Debug\Lufthavn.pdb

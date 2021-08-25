@@ -18,8 +18,6 @@ namespace Lufthavn
 
             Console.WriteLine(AD.GetRoutes());
 
-
-
             Console.ReadKey();
         }
     }
