@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc5dfce71e264a08975315da7cd34f68" Name="Diagram1">
+        <EntityTypeShape EntityType="AirportModel.Airline" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Airport" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.City" Width="1.5" PointX="1.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Country" Width="1.5" PointX="1.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Operator" Width="1.5" PointX="8.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Plane" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Route" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.sysdiagram" Width="1.5" PointX="3.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="AirportModel.FK__Plane__AirlineID__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK__Route__AirlineID__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Operator_Airline" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK__Airport__CityID__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK__Route__Destinati__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK__Route__OriginAir__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK__City__CountryID__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Operator_Route" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
